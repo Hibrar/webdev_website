@@ -1,0 +1,122 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #f7c6ff, #e6ccf5);
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header Styles */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #703f91;
+    padding: 15px 0;
+    text-align: center;
+    z-index: 100;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+/* Main Content */
+main {
+    padding-top: 80px; /* Prevents header overlap */
+    padding-bottom: 120px; /* Prevents footer overlap */
+}
+
+/* Sections */
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    display: inline-block;
+    width: 80%;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+}
+
+/* Form Styling */
+form {
+    text-align: left;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 60%;
+    margin: auto;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+}
+
+button {
+    background-color: #703f91;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #572c78; /* Slightly darker purple */
+}
+
+
+/* Footer */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #703f91;
+    color: white;
+    padding: 15px 0;
+}
+/* Table Centering and Styling */
+/* Table Centering, Borders, and Styling */
+/* Table Centering, Borders, and Styling */
+table {
+    width: 60%;
+    margin: 20px auto; /* Centers the table */
+    border-collapse: collapse;
+    background: white; /* White background */
+    border: 3px solid #703f91; /* Adds a stronger border around the entire table */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); /* Adds subtle shadow for depth */
+}
+
+/* Table Headers */
+th {
+    background: #572c78; /* Dark purple header background */
+    color: white;
+    padding: 14px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    border: 3px solid #703f91; /* Borders around each header */
+}
+
+/* Table Rows */
+td {
+    border: 2px solid #703f91; /* Borders around each cell */
+    padding: 12px;
+    text-align: center;
+    font-size: 16px;
+    background: #fdf7ff; /* Very light purple background */
+}
+
+/* Alternating row colors for better readability */
+tr:nth-child(even) {
+    background: #e6ccf5; /* Soft purple for alternating rows */
+}
+
+/* Hover effect for table rows */
+tr:hover {
+    background: #d8b7e5; /* Slightly darker purple when hovering */
+    transition: background 0.3s ease-in-out;
+}

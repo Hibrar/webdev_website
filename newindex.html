@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Favourite things</title>
+    <link rel="stylesheet" type="text/css" href="./styles/tablestyles.css">
+
+</head>
+<body>
+    <nav>
+        <a href="about_me.html" target="_blank"> More About Me </a>
+        <a href="mailto:hibbahibrar00@gmail.com?cc=hibbah.ibrar@version1.com&bcc=hibbah.ibrar@wearetech.com&subject=Test from website&body=Hi, this is a test">Send Email</a>
+        <a href="Desserts.html" target="_blank"> Desserts </a>
+        <button onclick="openPrompt()">Click Me</button>
+        <button onclick="increaseFontSize()">Increase Font Size</button>
+        <button onclick="decreaseFontSize()">Decrease Font Size</button>
+        <button onclick="changeFontColor()">Change Font Color</button>
+
+    </nav>
+
+<form onsubmit="submitForm(event)">
+    <label for="firstName">First Name:</label>
+    <input type="text" id="firstName" required><br><br>
+
+    <label for="lastName">Last Name:</label>
+    <input type="text" id="lastName" required><br><br>
+
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" required><br><br>
+
+    <button type="submit">Submit</button>
+</form>
+
+
+
+<h3>Select Your Age Range:</h3>
+<form id="wageForm">
+    <label>
+        <input type="radio" name="ageGroup" value="16-17"> 16-17
+    </label><br>
+
+    <label>
+        <input type="radio" name="ageGroup" value="18-20"> 18-20
+    </label><br>
+
+    <label>
+        <input type="radio" name="ageGroup" value="21-22"> 21-22
+    </label><br>
+
+    <label>
+        <input type="radio" name="ageGroup" value="23+"> 23+
+    </label><br><br>
+
+    <button type="button" onclick="checkWage()">Check Minimum Wage</button>
+</form>
+
+<!-- Display result in a div -->
+<p id="wageResult"></p>
+
+
+
+
+
+
+<label>
+    <input type="checkbox" onclick="toggleContent()"> Hide/Show Content
+</label>
+
+<br><br>
+
+
+
+<h1 id="title">This is my webpage - all about me </h1>
+<p id="description">TESTING - activity 4 task checkign whether I CAN DO toggle or not.</p>
+
+
+
+<label>
+    <input type="checkbox" id="darkModeToggle" onclick="toggleDarkMode()"> Dark Mode
+</label>
+
+
+    <h1> My favourite things</h1>
+    <p>This web page is about my <strong> favourite </strong> things.</p>
+    <h3 style="font-size:20px">My favourite foods</h3>
+    <ol type = "">
+        <li>Burgers</li>
+        <li>Tea</li>
+        <li>Anything sweet</li>
+
+    </ol>
+
+    <div id="Animals I like: ">
+        <h3>Animals I <em> like </em></h3>
+        <img src="../images/catimage.webp" alt="Kitten Image" width="200px">
+
+    </div>
+
+    <video width="200" controls muted autoplay loop>
+        <source src="./video/catvid.mp4.mp4" type="video/mp4">
+            Failed to load asset
+    </video>
+
+<h3>Wine Festival Schedule</h3>
+    <table class="festival-schedule">
+        <tr>
+            <th>Time</th>
+            <th>Event</th>
+        </tr>
+        <tr>
+            <td><b>12:00 PM</b></td>
+            <td>Welcome Reception</td>
+        </tr>
+        <tr>
+            <td><b>01:00 PM</b></td>
+            <td>Storytelling & Tasting</td>
+        </tr>
+        <tr>
+            <td><b>02:00 PM</b></td>
+            <td>Wine Luncheon</td>
+        </tr>
+        <tr>
+            <td><b>03:00 PM</b></td>
+            <td>Smith Family Wines</td>
+        </tr>
+        <tr>
+            <td><b>04:00 PM</b></td>
+            <td>Wine & Cheese Tasting</td>
+        </tr>
+    </table>
+
+<script type="text/javascript" src="./javascript/script.js"></script>
+
+</body>
+</html>
